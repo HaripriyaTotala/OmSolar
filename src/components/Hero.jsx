@@ -1,5 +1,5 @@
 import React from 'react';
-
+import heroImage from '../assets/images/Hero.jpeg'
 const Hero = () => {
   return (
     <div className="relative h-screen w-full overflow-hidden">
@@ -7,7 +7,7 @@ const Hero = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ 
-            backgroundImage: `url('src/assets/images/Hero.jpeg')`
+            backgroundImage: `url(${heroImage})`
           }}
         >
           <div className="absolute inset-0 bg-img bg-opacity-40" />
